@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">formrelatif_2125250036_20SEPT</string>
+    <string-array name="arr_prodi">
+        <item> Informatika(IF)</item>
+        <item>Sistem Informasi(SI)</item>
+        <item> Teknik Electro</item>
+        <item> Akuntansi (AK)</item>
+        <item> Manajemen </item>
+        <item> Manajemen Informatika</item>
+    </string-array>
+</resources>

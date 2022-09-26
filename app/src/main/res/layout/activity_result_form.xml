@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".ResultForm">
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda Terdaftar!"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TableLayout
+        android:id="@+id/tl_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_judul"
+        android:layout_marginTop="60dp">
+        <TableRow android:padding="6dp">
+            <TextView
+                android:text="NPM"/>
+            <TextView
+                android:text=": "
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"/>
+            <TextView
+                android:id="@+id/tv_npm"
+                android:text="..."/>
+        </TableRow>
+        <TableRow android:padding="6dp">
+            <TextView
+                android:text="Nama Mahasiswa"/>
+            <TextView
+                android:text=": "
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"/>
+            <TextView
+                android:id="@+id/tv_nama"
+                android:text="..."/>
+        </TableRow>
+        <TableRow android:padding="6dp">
+            <TextView
+                android:text="Jenis Kelamin"/>
+            <TextView
+                android:text=": "
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"/>
+            <TextView
+                android:id="@+id/tv_jk"
+                android:text="..."/>
+        </TableRow>
+    <TableRow android:padding="6dp">
+        <TextView
+            android:text="Program Study"/>
+        <TextView
+            android:text=": "
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"/>
+        <TextView
+            android:id="@+id/tv_prodi"
+            android:text="..."/>
+    </TableRow>
+    </TableLayout>
+</RelativeLayout>
